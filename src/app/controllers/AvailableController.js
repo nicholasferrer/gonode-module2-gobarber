@@ -1,5 +1,5 @@
 const moment = require('moment')
-const Op = require('sequelize')
+const { Op } = require('sequelize')
 const { Appointment } = require('../models')
 
 class AvailableController {
