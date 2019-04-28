@@ -16,7 +16,7 @@ const AvailableController = require('./app/controllers/AvailableController')
 const ScheduleController = require('./app/controllers/ScheduleController')
 
 routes.use((req, res, next) => {
-  res.locals.flashSuccess = req.flash('success')
+  res.locals.flashSucces = req.flash('success')
   res.locals.flashError = req.flash('error')
 
   return next()
